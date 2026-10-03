@@ -1,0 +1,18 @@
+:root{--bg:#fffdf9;--card:#fff;--ink:#3b3228;--sub:#8a7a68;--gold:#b08d57;--line:#e6d9c4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;text-align:center;line-height:1.9}
+.wrap{max-width:480px;margin:0 auto;padding:28px 22px 60px}
+.en{margin-bottom:22px;font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;color:var(--gold);letter-spacing:.2em;font-size:18px}
+h1{font-weight:300;font-size:28px;letter-spacing:.12em;margin:6px 0}
+.amp{color:var(--gold);font-family:"Cormorant Garamond",serif;margin:0 8px}
+.info{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:26px 0}
+.row{padding:10px 0;border-bottom:1px dashed var(--line)}
+.row:last-child{border:0}
+.row small{display:block;color:var(--gold);letter-spacing:.2em;font-size:11px}
+.row b{font-weight:400;font-size:17px}
+.msg{white-space:pre-wrap;color:var(--sub);font-size:15px}
+button,.btn{font:inherit;font-size:14px;background:none;border:1px solid var(--gold);color:var(--gold);padding:8px 22px;border-radius:99px;cursor:pointer;margin-top:26px}
+#edit{display:none;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:20px}
+#edit label{display:block;font-size:12px;color:var(--sub);margin-top:10px}
+#edit input,#edit textarea{width:100%;font:inherit;font-size:16px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
