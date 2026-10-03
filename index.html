@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wedding</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="en">Wedding Day</div>
+  <h1><span id="n1"></span><span class="amp">&amp;</span><span id="n2"></span></h1>
+  <div class="info">
+    <div class="row"><small>DATE</small><b id="d"></b></div>
+    <div class="row"><small>TIME</small><b id="t"></b></div>
+    <div class="row"><small>PLACE</small><b id="p"></b></div>
+  </div>
+  <p class="msg" id="m"></p>
+  <button onclick="toggle()">✎ 内容を編集</button>
+  <div id="edit">
+    <label>新郎のお名前</label><input id="i1">
+    <label>新婦のお名前</label><input id="i2">
+    <label>日付</label><input id="id">
+    <label>時間</label><input id="it">
+    <label>会場</label><input id="ip">
+    <label>ひとこと</label><textarea id="im" rows="4"></textarea>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
